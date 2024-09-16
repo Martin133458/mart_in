@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0 5px;
+    padding-top: 6px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 15px;
+        
+    }
+    
+}
+
+.carde{
+    border: 1px solid black;
+    border-radius: 15px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+
+   
+    h2{
+        font-size: 23px;
+    }
+}
+.glav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+
+.svg_minut{
+    max-width: 15px;
+    max-height: 15px;
+    padding-left: 10px;
+}
+
+.svg_comment{
+    max-width: 15px;
+    max-height: 15px;
+    padding-left: 10px;
+}
+
+.btn_cook{
+    padding: 5px;
+    width: 100px;
+    background-color: rgba(10, 101, 192, 0.854);
+    color: white;
+    border: none;
+    position: relative;
+    top: -290px;
+    right: -290px;
+}
+
+.pismot{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 20px;
+}
